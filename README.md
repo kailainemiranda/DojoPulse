@@ -184,6 +184,3 @@ A versão atual é um protótipo estático. Para uso real, recomenda-se criar um
 - [x] README técnico e instruções de execução.
 - [x] Código versionado no GitHub.
 
-## Autoria
-
-Projeto desenvolvido por **Kailaine Barbosa Miranda**, RU **4832461**, como proposta de uma solução digital para apoiar atividades de uma academia de artes marciais.
