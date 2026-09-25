@@ -4,6 +4,30 @@
 **RU:** 4832461  
 **Projeto:** DojoPulse - Academia em movimento
 
+## Metodologia: início ao fim do projeto
+
+```mermaid
+flowchart LR
+    A([Início do projeto]) --> B[Definição do tema e do público]
+    B --> C[Levantamento das necessidades da academia]
+    C --> D[Definição das funcionalidades]
+    D --> E[Planejamento das telas e da navegação]
+    E --> F[Desenvolvimento do HTML]
+    F --> G[Criação do estilo visual com CSS]
+    G --> H[Implementação das funções com JavaScript]
+    H --> I[Cadastro, login e perfis de acesso]
+    I --> J[Painel de turmas, graduações e avisos]
+    J --> K[Testes de navegação e validação]
+    K --> L[Correções e ajustes finais]
+    L --> M[Documentação do projeto]
+    M --> N[Publicação no GitHub Pages]
+    N --> O([Fim do projeto])
+```
+
+### Etapas representadas
+
+O projeto começou com a escolha do tema e a identificação das necessidades da academia. Em seguida, foram planejadas as telas e desenvolvidas a estrutura em HTML, a identidade visual em CSS e as funcionalidades em JavaScript. Depois foram implementados o cadastro, o login, os perfis de aluno e administrador e o painel de atividades. Por fim, foram realizados testes, ajustes, documentação e publicação no GitHub Pages.
+
 ## Fluxo principal da aplicação
 
 ```mermaid
