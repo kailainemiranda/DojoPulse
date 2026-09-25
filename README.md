@@ -7,6 +7,17 @@
 **Repositório:** [kailainemiranda/DojoPulse](https://github.com/kailainemiranda/DojoPulse)  
 **Publicação:** GitHub Pages
 
+## Navegação rápida
+
+- [Sobre o projeto](#sobre-o-projeto)
+- [Objetivos](#objetivos)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Estrutura do repositório](#estrutura-do-repositório)
+- [Como executar](#como-executar-localmente)
+- [Como publicar](#como-publicar-no-github-pages)
+- [Documentação acadêmica](#documentação-acadêmica)
+
 ## Sobre o projeto
 
 O DojoPulse foi desenvolvido para organizar as atividades de uma academia de artes marciais e facilitar o acesso às informações por alunos, professores e administradores. A aplicação apresenta turmas, professores, horários, graduações e avisos em uma interface simples, responsiva e visualmente moderna.
@@ -46,6 +57,21 @@ O projeto foi construído como uma aplicação estática utilizando HTML, CSS e 
 - Consulta dos cadastros feitos na plataforma.
 - Visualização de nome, e-mail, telefone, documento e data do cadastro.
 
+## Fluxo de utilização
+
+```text
+Página inicial
+	↓
+Escolha: criar conta ou entrar
+	↓
+Validação dos dados
+	↓
+Aluno: turmas, professores, horários, graduações e avisos
+Administrador: consulta dos cadastros realizados
+```
+
+O aluno não acessa os dados de outros participantes. A área administrativa é exibida somente quando as credenciais administrativas são validadas.
+
 ## Acesso administrativo de demonstração
 
 ```text
@@ -81,9 +107,6 @@ DojoPulse/
 │   ├── FUNCIONAMENTO.md
 │   ├── TESTES.md
 │   └── CONSIDERACOES-FINAIS.md
-├── .github/workflows/            # Publicação automática do GitHub Pages
-├── .gitignore                    # Arquivos ignorados pelo Git
-├── .nojekyll                     # Publicação estática direta
 └── LICENSE                       # Licença do repositório
 ```
 
@@ -99,6 +122,13 @@ DojoPulse/
 
 Não é necessário instalar Node.js, PHP, Composer ou executar `npm install` nesta versão.
 
+### Alternativa com Live Server
+
+1. Instale a extensão **Live Server** no VS Code.
+2. Abra o arquivo `index.html`.
+3. Clique com o botão direito e selecione **Open with Live Server**.
+4. O navegador abrirá uma URL local, normalmente iniciada por `http://127.0.0.1`.
+
 ## Como publicar no GitHub Pages
 
 1. Faça o commit das alterações:
@@ -113,7 +143,7 @@ git push origin main
 3. Em **Build and deployment**, selecione **Deploy from a branch**.
 4. Escolha a branch `main` e a pasta `/ (root)`.
 5. Clique em **Save**.
-6. Aguarde a publicação do workflow.
+6. Aguarde a publicação do site pelo GitHub.
 
 Endereço esperado:
 
@@ -139,3 +169,16 @@ O fluxograma visual está disponível em [metodologia-dojopulse.svg](metodologia
 ## Limitações e evolução futura
 
 A versão atual é um protótipo estático. Para uso real, recomenda-se criar uma API, utilizar banco de dados, proteger as senhas com hash, validar permissões no servidor, implementar recuperação de senha e configurar backups.
+
+## Estado da entrega
+
+- [x] Interface inicial desenvolvida.
+- [x] Cadastro de participantes.
+- [x] Login de aluno.
+- [x] Login administrativo.
+- [x] Área de turmas, graduações e avisos.
+- [x] Tabela administrativa de cadastros.
+- [x] Layout responsivo.
+- [x] Diagrama da metodologia.
+- [x] Documentação acadêmica.
+- [x] Código versionado no GitHub.
