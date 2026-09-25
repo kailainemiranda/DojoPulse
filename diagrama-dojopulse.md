@@ -81,14 +81,5 @@ sequenceDiagram
     B-->>A: Exibe os registros cadastrados
 ```
 
-## Legenda para o relatório
 
-O diagrama representa o funcionamento do DojoPulse, uma plataforma web criada para apoiar um projeto social de artes marciais. O participante pode criar uma conta e acessar informações sobre turmas, professores, horários, graduações e avisos. O administrador possui um acesso específico para consultar os cadastros realizados na plataforma. Nesta versão demonstrativa, os dados são armazenados no `localStorage` do navegador e a aplicação é publicada como um site estático no GitHub Pages.
 
-## Como transformar em imagem
-
-1. Copie um dos blocos Mermaid acima.
-2. Acesse `https://mermaid.live`.
-3. Cole o código no editor.
-4. Exporte como PNG ou SVG.
-5. Insira a imagem no Word ou no relatório acadêmico.
