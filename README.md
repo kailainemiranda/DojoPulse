@@ -6,10 +6,6 @@
 ![Tecnologias](https://img.shields.io/badge/HTML%20%7C%20CSS%20%7C%20JavaScript-111827)
 ![Hospedagem](https://img.shields.io/badge/hospedagem-GitHub%20Pages-a812ed)
 
-**Aluna:** Kailaine Barbosa Miranda  
-**RU:** 4832461  
-**Repositório:** [kailainemiranda/DojoPulse](https://github.com/kailainemiranda/DojoPulse)  
-**Publicação:** GitHub Pages
 
 ## Navegação rápida
 
