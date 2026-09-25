@@ -42,8 +42,8 @@ flowchart LR
 ```mermaid
 graph TD
     A[DojoPulse] --> B[index.html]
-    A --> C[styles.css]
-    A --> D[app.js]
+    A --> C[css/styles.css]
+    A --> D[javascript/app.js]
     A --> E[GitHub Pages]
     B --> F[Landing page]
     B --> G[Cadastro]

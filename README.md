@@ -97,10 +97,13 @@ Essas credenciais servem apenas para demonstração acadêmica. Como o projeto u
 ```text
 DojoPulse/
 ├── index.html                    # Landing, cadastro, login e painel
-├── styles.css                    # Estilos, tema neon e responsividade
-├── app.js                        # Regras de navegação e autenticação local
-├── diagrama-dojopulse.md         # Diagramas em Mermaid
-├── metodologia-dojopulse.svg     # Fluxograma visual para o Word
+├── css/
+│   └── styles.css                # Estilos, tema neon e responsividade
+├── javascript/
+│   └── app.js                    # Navegação e autenticação local
+├── diagramas/
+│   ├── diagrama-dojopulse.md     # Diagramas em Mermaid
+│   └── metodologia-dojopulse.svg # Fluxograma visual para o Word
 └── LICENSE                       # Licença do repositório
 ```
 
@@ -149,12 +152,12 @@ https://kailainemiranda.github.io/DojoPulse/
 
 O desenvolvimento foi dividido em definição do tema, levantamento das necessidades, planejamento das telas, desenvolvimento da estrutura HTML, criação da identidade visual em CSS, implementação das funções em JavaScript, cadastro dos perfis de acesso, testes, documentação e publicação.
 
-O fluxograma visual está disponível em [metodologia-dojopulse.svg](metodologia-dojopulse.svg) e pode ser inserido no Word como imagem.
+O fluxograma visual está disponível em [metodologia-dojopulse.svg](diagramas/metodologia-dojopulse.svg) e pode ser inserido no Word como imagem.
 
 ## Diagramas
 
-- [Diagramas em Mermaid](diagrama-dojopulse.md)
-- [Fluxograma visual para Word](metodologia-dojopulse.svg)
+- [Diagramas em Mermaid](diagramas/diagrama-dojopulse.md)
+- [Fluxograma visual para Word](diagramas/metodologia-dojopulse.svg)
 
 ## Limitações e evolução futura
 
