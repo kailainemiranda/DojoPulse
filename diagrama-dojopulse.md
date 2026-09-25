@@ -1,5 +1,7 @@
 # Diagrama do projeto DojoPulse
 
+> Versão visual pronta para inserir no Word: [metodologia-dojopulse.svg](metodologia-dojopulse.svg)
+
 **Aluna:** Kailaine Barbosa Miranda  
 **RU:** 4832461  
 **Projeto:** DojoPulse - Academia em movimento

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#223047"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#8d9aaa" flood-opacity=".18"/>
+    </filter>
+    <style>
+      .title{font:700 28px Arial,sans-serif;fill:#152238}.subtitle{font:400 14px Arial,sans-serif;fill:#718096}.label{font:700 15px Arial,sans-serif;fill:#152238}.duration{font:400 12px Arial,sans-serif;fill:#718096}.small{font:400 11px Arial,sans-serif;fill:#718096}.line{stroke:#223047;stroke-width:2.5;fill:none;marker-end:url(#arrow)}.box{fill:#fff;stroke:#223047;stroke-width:2;rx:4;filter:url(#shadow)}.start{fill:#f4f7fb;stroke:#223047;stroke-width:2}.end{fill:#e8f8f1;stroke:#2b8b63;stroke-width:2}.accent{fill:#00d2ff;stroke:#008eaa;stroke-width:2}.accentText{fill:#05202b}.pink{fill:#fff0f7;stroke:#ff007f;stroke-width:2}.purple{fill:#f5edff;stroke:#a812ed;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1600" height="760" fill="#f7f9fb"/>
+  <text x="800" y="48" text-anchor="middle" class="title">DojoPulse - Metodologia do projeto</text>
+  <text x="800" y="74" text-anchor="middle" class="subtitle">Kailaine Barbosa Miranda - RU 4832461</text>
+  <line x1="80" y1="105" x2="1520" y2="105" stroke="#dbe2ea" stroke-width="2"/>
+
+  <!-- Linha superior: início até desenvolvimento -->
+  <ellipse cx="110" cy="235" rx="70" ry="38" class="start" filter="url(#shadow)"/>
+  <text x="110" y="231" text-anchor="middle" class="label">Início do</text><text x="110" y="250" text-anchor="middle" class="label">projeto</text>
+  <path d="M180 235 H245" class="line"/>
+
+  <rect x="250" y="188" width="170" height="94" class="box"/><text x="335" y="220" text-anchor="middle" class="label">Definição do tema</text><text x="335" y="244" text-anchor="middle" class="duration">Duração: 1 dia</text><text x="335" y="263" text-anchor="middle" class="small">Projeto social</text>
+  <path d="M420 235 H465" class="line"/>
+  <rect x="470" y="188" width="170" height="94" class="accent"/><text x="555" y="220" text-anchor="middle" class="label accentText">Público e objetivos</text><text x="555" y="244" text-anchor="middle" class="duration accentText">Duração: 1 dia</text><text x="555" y="263" text-anchor="middle" class="small accentText">Academia e alunos</text>
+  <path d="M640 235 H685" class="line"/>
+  <rect x="690" y="188" width="180" height="94" class="box"/><text x="780" y="220" text-anchor="middle" class="label">Levantamento das</text><text x="780" y="240" text-anchor="middle" class="label">necessidades</text><text x="780" y="263" text-anchor="middle" class="duration">Duração: 2 dias</text>
+  <path d="M870 235 H915" class="line"/>
+  <rect x="920" y="188" width="180" height="94" class="pink"/><text x="1010" y="220" text-anchor="middle" class="label">Planejamento das</text><text x="1010" y="240" text-anchor="middle" class="label">telas e fluxo</text><text x="1010" y="263" text-anchor="middle" class="duration">Duração: 2 dias</text>
+  <path d="M1100 235 H1145" class="line"/>
+  <rect x="1150" y="188" width="180" height="94" class="purple"/><text x="1240" y="220" text-anchor="middle" class="label">Desenvolvimento</text><text x="1240" y="240" text-anchor="middle" class="label">HTML, CSS e JS</text><text x="1240" y="263" text-anchor="middle" class="duration">Duração: 10 dias</text>
+  <path d="M1330 235 H1430 V480 H1325" class="line"/>
+
+  <!-- Linha inferior: retorno até entrega -->
+  <rect x="1145" y="433" width="180" height="94" class="box"/><text x="1235" y="465" text-anchor="middle" class="label">Cadastro, login e</text><text x="1235" y="485" text-anchor="middle" class="label">perfis de acesso</text><text x="1235" y="508" text-anchor="middle" class="duration">Duração: 2 dias</text>
+  <path d="M1145 480 H1100" class="line"/>
+  <rect x="920" y="433" width="175" height="94" class="accent"/><text x="1007" y="465" text-anchor="middle" class="label accentText">Painel de atividades</text><text x="1007" y="485" text-anchor="middle" class="label accentText">da academia</text><text x="1007" y="508" text-anchor="middle" class="duration accentText">Duração: 3 dias</text>
+  <path d="M920 480 H875" class="line"/>
+  <rect x="690" y="433" width="180" height="94" class="box"/><text x="780" y="465" text-anchor="middle" class="label">Testes e validação</text><text x="780" y="485" text-anchor="middle" class="label">dos fluxos</text><text x="780" y="508" text-anchor="middle" class="duration">Duração: 2 dias</text>
+  <path d="M690 480 H645" class="line"/>
+  <rect x="460" y="433" width="180" height="94" class="pink"/><text x="550" y="465" text-anchor="middle" class="label">Correções e ajustes</text><text x="550" y="485" text-anchor="middle" class="label">finais</text><text x="550" y="508" text-anchor="middle" class="duration">Duração: 1 dia</text>
+  <path d="M460 480 H415" class="line"/>
+  <rect x="230" y="433" width="180" height="94" class="purple"/><text x="320" y="465" text-anchor="middle" class="label">Documentação</text><text x="320" y="485" text-anchor="middle" class="label">e diagrama</text><text x="320" y="508" text-anchor="middle" class="duration">Duração: 1 dia</text>
+  <path d="M230 480 H185" class="line"/>
+  <rect x="20" y="433" width="160" height="94" class="accent"/><text x="100" y="465" text-anchor="middle" class="label accentText">Publicação</text><text x="100" y="485" text-anchor="middle" class="label accentText">GitHub Pages</text><text x="100" y="508" text-anchor="middle" class="duration accentText">Duração: 1 dia</text>
+  <path d="M100 527 V625 H230" class="line"/>
+  <ellipse cx="310" cy="625" rx="82" ry="38" class="end" filter="url(#shadow)"/><text x="310" y="621" text-anchor="middle" class="label">Fim do</text><text x="310" y="640" text-anchor="middle" class="label">projeto</text>
+  <text x="800" y="685" text-anchor="middle" class="subtitle">Fluxo de desenvolvimento do DojoPulse: da definição do tema à entrega da aplicação.</text>
+</svg>
