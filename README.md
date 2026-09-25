@@ -1,3 +1,6 @@
+## Diagrama do projeto
+
+O arquivo [diagrama-dojopulse.md](diagrama-dojopulse.md) contém os diagramas Mermaid do fluxo da aplicação, perfis de acesso, estrutura tecnológica e cadastro de dados.
 # DojoPulse
 
 Sistema web para uma academia de artes marciais e projeto social. A aplicação foi criada com HTML, CSS e JavaScript puro, sem framework e sem dependências de instalação.
