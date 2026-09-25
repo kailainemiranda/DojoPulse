@@ -1,11 +1,3 @@
-# Diagrama do projeto DojoPulse
-
-> Versão visual pronta para inserir no Word: [metodologia-dojopulse.svg](metodologia-dojopulse.svg)
-
-**Aluna:** Kailaine Barbosa Miranda  
-**RU:** 4832461  
-**Projeto:** DojoPulse - Academia em movimento
-
 ## Metodologia: início ao fim do projeto
 
 ```mermaid
@@ -25,10 +17,6 @@ flowchart LR
     M --> N[Publicação no GitHub Pages]
     N --> O([Fim do projeto])
 ```
-
-### Etapas representadas
-
-O projeto começou com a escolha do tema e a identificação das necessidades da academia. Em seguida, foram planejadas as telas e desenvolvidas a estrutura em HTML, a identidade visual em CSS e as funcionalidades em JavaScript. Depois foram implementados o cadastro, o login, os perfis de aluno e administrador e o painel de atividades. Por fim, foram realizados testes, ajustes, documentação e publicação no GitHub Pages.
 
 ## Fluxo principal da aplicação
 
