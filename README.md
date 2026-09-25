@@ -1,6 +1,10 @@
 # DojoPulse
 
-> Plataforma web para apoiar as atividades de um projeto social de artes marciais.
+> Plataforma web para organizar atividades, turmas e comunicação de um projeto social de artes marciais.
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-00d2ff)
+![Tecnologias](https://img.shields.io/badge/HTML%20%7C%20CSS%20%7C%20JavaScript-111827)
+![Hospedagem](https://img.shields.io/badge/hospedagem-GitHub%20Pages-a812ed)
 
 **Aluna:** Kailaine Barbosa Miranda  
 **RU:** 4832461  
@@ -18,11 +22,19 @@
 - [Como publicar](#como-publicar-no-github-pages)
 - [Diagramas](#diagramas)
 
-## Sobre o projeto
+## Visão geral
 
 O DojoPulse foi desenvolvido para organizar as atividades de uma academia de artes marciais e facilitar o acesso às informações por alunos, professores e administradores. A aplicação apresenta turmas, professores, horários, graduações e avisos em uma interface simples, responsiva e visualmente moderna.
 
 O projeto foi construído como uma aplicação estática utilizando HTML, CSS e JavaScript. Nesta versão acadêmica, os dados de cadastro são armazenados localmente no navegador por meio do `localStorage`.
+
+## Diferenciais
+
+- Interface responsiva para computador e celular.
+- Navegação simples e objetiva.
+- Separação entre acesso de aluno e administrador.
+- Identidade visual própria com tema escuro e cores neon.
+- Publicação gratuita e acessível pela internet.
 
 ## Objetivos
 
@@ -72,14 +84,14 @@ Administrador: consulta dos cadastros realizados
 
 O aluno não acessa os dados de outros participantes. A área administrativa é exibida somente quando as credenciais administrativas são validadas.
 
-## Acesso administrativo de demonstração
+## Perfis de acesso
 
-```text
-E-mail: adm@gmail.com
-Senha: adm 2026
-```
+O sistema possui dois perfis:
 
-Essas credenciais servem apenas para demonstração acadêmica. Como o projeto utiliza `localStorage`, os dados ficam no navegador utilizado e não representam um banco de dados seguro para produção.
+- **Aluno:** acessa turmas, professores, horários, graduações e avisos.
+- **Administrador:** consulta os cadastros realizados na plataforma.
+
+As credenciais administrativas são destinadas somente à demonstração do projeto e não são exibidas nesta documentação pública. Como o projeto utiliza `localStorage`, os dados ficam no navegador utilizado e não representam um banco de dados seguro para produção.
 
 ## Tecnologias
 
@@ -115,7 +127,7 @@ DojoPulse/
 4. Para atualizar automaticamente durante o desenvolvimento, use a extensão **Live Server**.
 5. Clique em **Criar minha conta** para testar o cadastro de aluno.
 6. Use **Entrar** com o e-mail cadastrado para testar o acesso de aluno.
-7. Use `adm@gmail.com` e `adm 2026` para abrir a área administrativa.
+7. Para testar a área administrativa, utilize as credenciais fornecidas separadamente para a apresentação do projeto.
 
 Não é necessário instalar Node.js, PHP, Composer ou executar `npm install` nesta versão.
 
@@ -175,3 +187,7 @@ A versão atual é um protótipo estático. Para uso real, recomenda-se criar um
 - [x] Diagrama da metodologia.
 - [x] README técnico e instruções de execução.
 - [x] Código versionado no GitHub.
+
+## Autoria
+
+Projeto desenvolvido por **Kailaine Barbosa Miranda**, RU **4832461**, como proposta de uma solução digital para apoiar atividades de uma academia de artes marciais.
