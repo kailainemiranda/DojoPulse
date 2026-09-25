@@ -16,7 +16,7 @@
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Como executar](#como-executar-localmente)
 - [Como publicar](#como-publicar-no-github-pages)
-- [Documentação acadêmica](#documentação-acadêmica)
+- [Diagramas](#diagramas)
 
 ## Sobre o projeto
 
@@ -101,12 +101,6 @@ DojoPulse/
 ├── app.js                        # Regras de navegação e autenticação local
 ├── diagrama-dojopulse.md         # Diagramas em Mermaid
 ├── metodologia-dojopulse.svg     # Fluxograma visual para o Word
-├── docs/                         # Documentação acadêmica detalhada
-│   ├── OBJETIVOS.md
-│   ├── METODOLOGIA.md
-│   ├── FUNCIONAMENTO.md
-│   ├── TESTES.md
-│   └── CONSIDERACOES-FINAIS.md
 └── LICENSE                       # Licença do repositório
 ```
 
@@ -157,14 +151,10 @@ O desenvolvimento foi dividido em definição do tema, levantamento das necessid
 
 O fluxograma visual está disponível em [metodologia-dojopulse.svg](metodologia-dojopulse.svg) e pode ser inserido no Word como imagem.
 
-## Documentação acadêmica
+## Diagramas
 
-- [Objetivos](docs/OBJETIVOS.md)
-- [Metodologia](docs/METODOLOGIA.md)
-- [Funcionamento do sistema](docs/FUNCIONAMENTO.md)
-- [Testes realizados](docs/TESTES.md)
-- [Considerações finais](docs/CONSIDERACOES-FINAIS.md)
-- [Diagramas do projeto](diagrama-dojopulse.md)
+- [Diagramas em Mermaid](diagrama-dojopulse.md)
+- [Fluxograma visual para Word](metodologia-dojopulse.svg)
 
 ## Limitações e evolução futura
 
@@ -180,5 +170,5 @@ A versão atual é um protótipo estático. Para uso real, recomenda-se criar um
 - [x] Tabela administrativa de cadastros.
 - [x] Layout responsivo.
 - [x] Diagrama da metodologia.
-- [x] Documentação acadêmica.
+- [x] README técnico e instruções de execução.
 - [x] Código versionado no GitHub.
