@@ -1,3 +1,12 @@
+# DojoPulse
+
+> Plataforma web para apoiar as atividades de um projeto social de artes marciais.
+
+**Aluna:** Kailaine Barbosa Miranda  
+**RU:** 4832461  
+**Repositório:** [kailainemiranda/DojoPulse](https://github.com/kailainemiranda/DojoPulse)  
+**Publicação:** GitHub Pages
+
 ## Navegação rápida
 
 - [Sobre o projeto](#sobre-o-projeto)
