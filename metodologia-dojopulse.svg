@@ -10,10 +10,9 @@
       .title{font:700 28px Arial,sans-serif;fill:#152238}.subtitle{font:400 14px Arial,sans-serif;fill:#718096}.label{font:700 15px Arial,sans-serif;fill:#152238}.duration{font:400 12px Arial,sans-serif;fill:#718096}.small{font:400 11px Arial,sans-serif;fill:#718096}.line{stroke:#223047;stroke-width:2.5;fill:none;marker-end:url(#arrow)}.box{fill:#fff;stroke:#223047;stroke-width:2;rx:4;filter:url(#shadow)}.start{fill:#f4f7fb;stroke:#223047;stroke-width:2}.end{fill:#e8f8f1;stroke:#2b8b63;stroke-width:2}.accent{fill:#00d2ff;stroke:#008eaa;stroke-width:2}.accentText{fill:#05202b}.pink{fill:#fff0f7;stroke:#ff007f;stroke-width:2}.purple{fill:#f5edff;stroke:#a812ed;stroke-width:2}
     </style>
   </defs>
-  <rect width="1600" height="760" fill="#f7f9fb"/>
-  <text x="800" y="48" text-anchor="middle" class="title">DojoPulse - Metodologia do projeto</text>
-  <text x="800" y="74" text-anchor="middle" class="subtitle">Kailaine Barbosa Miranda - RU 4832461</text>
-  <line x1="80" y1="105" x2="1520" y2="105" stroke="#dbe2ea" stroke-width="2"/>
+  <rect width="1600" height="760" fill="#ffffff"/>
+  <text x="800" y="48" text-anchor="middle" class="subtitle">Kailaine Barbosa Miranda - RU 4832461</text>
+  <line x1="80" y1="80" x2="1520" y2="80" stroke="#dbe2ea" stroke-width="2"/>
 
   <!-- Linha superior: início até desenvolvimento -->
   <ellipse cx="110" cy="235" rx="70" ry="38" class="start" filter="url(#shadow)"/>
@@ -45,5 +44,4 @@
   <rect x="20" y="433" width="160" height="94" class="accent"/><text x="100" y="465" text-anchor="middle" class="label accentText">Publicação</text><text x="100" y="485" text-anchor="middle" class="label accentText">GitHub Pages</text><text x="100" y="508" text-anchor="middle" class="duration accentText">Duração: 1 dia</text>
   <path d="M100 527 V625 H230" class="line"/>
   <ellipse cx="310" cy="625" rx="82" ry="38" class="end" filter="url(#shadow)"/><text x="310" y="621" text-anchor="middle" class="label">Fim do</text><text x="310" y="640" text-anchor="middle" class="label">projeto</text>
-  <text x="800" y="685" text-anchor="middle" class="subtitle">Fluxo de desenvolvimento do DojoPulse: da definição do tema à entrega da aplicação.</text>
 </svg>
