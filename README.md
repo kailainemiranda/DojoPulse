@@ -34,19 +34,13 @@ Uma plataforma web para aproximar pessoas, organizar atividades e fortalecer um 
 - [Nossa missão](#nossa-missão)
 - [Licença](#licença)
 
----
-
 ## Bem-vindo ao DojoPulse
-
----
 
 O **DojoPulse** é um projeto web criado para organizar, conectar e fortalecer um projeto social de artes marciais. Sua missão é promover a inclusão social, a disciplina e o acesso ao esporte por meio de um espaço digital simples, moderno e acessível para alunos, professores e administradores.
 
 Este site foi desenvolvido com foco em praticidade, usabilidade e impacto social, utilizando a tecnologia como uma aliada no desenvolvimento da comunidade e na organização do dia a dia da academia.
 
 ## Visão geral
-
----
 
 O DojoPulse é uma aplicação web responsiva que centraliza informações e recursos importantes da academia:
 
@@ -57,13 +51,9 @@ O DojoPulse é uma aplicação web responsiva que centraliza informações e rec
 
 ## Acesse o projeto
 
----
-
 👉 [https://kailainemiranda.github.io/DojoPulse/](https://kailainemiranda.github.io/DojoPulse/)
 
 ## Funcionalidades
-
----
 
 ### Painel do aluno
 
@@ -90,8 +80,6 @@ O projeto possui uma estrutura simples e modular, facilitando a manutenção, a 
 
 ## Tecnologias utilizadas
 
----
-
 | Tecnologia | Aplicação no projeto |
 | --- | --- |
 | **HTML5** | Estrutura das páginas, formulários e painéis |
@@ -105,8 +93,6 @@ As linguagens principais do projeto são **HTML, CSS e JavaScript**. O GitHub id
 
 ## Languages
 
----
-
 - HTML
 - CSS
 - JavaScript
@@ -114,8 +100,6 @@ As linguagens principais do projeto são **HTML, CSS e JavaScript**. O GitHub id
 Para que essas linguagens apareçam corretamente na área **Languages** do GitHub, os arquivos `index.html`, `css/styles.css` e `javascript/app.js` precisam estar incluídos no commit enviado ao repositório. O conteúdo deste README e os badges não alteram essa identificação.
 
 ## Como a aplicação funciona
-
----
 
 ```mermaid
 flowchart LR
@@ -137,8 +121,6 @@ O diagrama completo, com os fluxos de acesso, a estrutura tecnológica e o cadas
 
 ## Estrutura do projeto
 
----
-
 ```text
 DojoPulse/
 ├── index.html                    # Interface, cadastro, login e painéis
@@ -156,8 +138,6 @@ DojoPulse/
 
 ## Como executar localmente
 
----
-
 1. Clone este repositório ou faça o download dos arquivos.
 2. Abra a pasta no VS Code.
 3. Abra o arquivo `index.html` no navegador.
@@ -168,8 +148,6 @@ Não é necessário instalar Node.js ou executar `npm install`: esta versão é 
 
 ## Publicação
 
----
-
 O projeto pode ser publicado gratuitamente pelo GitHub Pages:
 
 1. Acesse **Settings > Pages** no repositório.
@@ -178,8 +156,6 @@ O projeto pode ser publicado gratuitamente pelo GitHub Pages:
 4. Clique em **Save** e aguarde a publicação.
 
 ## Limitações e próximos passos
-
----
 
 Atualmente, o DojoPulse é um protótipo estático e armazena os dados apenas no navegador. Para uma versão de produção, os próximos passos seriam:
 
@@ -190,8 +166,6 @@ Atualmente, o DojoPulse é um protótipo estático e armazena os dados apenas no
 
 ## Nossa missão
 
----
-
 O DojoPulse acredita no poder transformador do esporte e da educação. O projeto foi pensado para:
 
 - **Promover a inclusão social:** facilitar a entrada e a permanência de jovens e adultos nas artes marciais.
@@ -201,8 +175,6 @@ O DojoPulse acredita no poder transformador do esporte e da educação. O projet
 O objetivo é contribuir para a transformação de vidas dentro e fora do tatame, aproximando tecnologia, esporte e desenvolvimento social.
 
 ## Licença
-
----
 
 Este projeto está disponível sob a licença [MIT](LICENSE).
 
