@@ -31,7 +31,7 @@ O projeto foi construído como uma aplicação estática utilizando HTML, CSS e 
 - Navegação simples e objetiva.
 - Separação entre acesso de aluno e administrador.
 - Cadastro da faixa do aluno e consulta no painel administrativo.
-- Área de configurações com resumo do perfil e encerramento da sessão.
+- Área de configurações com e-mail, telefone de contato e encerramento da sessão.
 - Identidade visual própria com tema escuro e cores neon.
 - Publicação gratuita e acessível pela internet.
 

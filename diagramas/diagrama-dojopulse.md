@@ -18,7 +18,7 @@ flowchart TD
     H --> L[Consultar graduações]
     H --> M[Consultar avisos]
     J --> N[Consultar cadastros realizados]
-    N --> O[Nome, e-mail, telefone, documento e data]
+    N --> O[Nome, e-mail, telefone, faixa e data]
 ```
 
 ## Fluxo de acesso por perfil
