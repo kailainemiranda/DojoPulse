@@ -40,15 +40,13 @@ Código Limpo e Estruturado: Organização modular facilitando a manutenção e 
 | GitHub Pages | Hospedagem gratuita da aplicação |
 | Mermaid e SVG | Diagramas da metodologia do projeto |
 
-O GitHub identifica as linguagens da área **Languages** pelos arquivos versionados no repositório. Para que HTML, CSS e JavaScript apareçam nessa área, os arquivos `index.html`, `css/styles.css` e `javascript/app.js` precisam estar incluídos no commit enviado ao GitHub. O conteúdo deste README ou os badges acima não altera automaticamente essa identificação.
-
 ## Languages
 
 - HTML
 - CSS
 - JavaScript
 
-Esta lista registra as linguagens desenvolvidas no projeto. A porcentagem exibida pelo GitHub é calculada automaticamente pelo GitHub Linguist e pode mudar conforme o tamanho dos arquivos.
+Esta lista registra as linguagens desenvolvidas no projeto. A porcentagem exibida pelo GitHub é calculada automaticamente pelo GitHub Linguist 
 
 ## Estrutura do repositório
 
