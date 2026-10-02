@@ -13,6 +13,7 @@
 - [Objetivos](#objetivos)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias](#tecnologias)
+- [Languages](#languages)
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Como executar](#como-executar-localmente)
 - [Como publicar](#como-publicar-no-github-pages)
@@ -29,6 +30,8 @@ O projeto foi construído como uma aplicação estática utilizando HTML, CSS e 
 - Interface responsiva para computador e celular.
 - Navegação simples e objetiva.
 - Separação entre acesso de aluno e administrador.
+- Cadastro da faixa do aluno e consulta no painel administrativo.
+- Área de configurações com resumo do perfil e encerramento da sessão.
 - Identidade visual própria com tema escuro e cores neon.
 - Publicação gratuita e acessível pela internet.
 
@@ -63,7 +66,7 @@ O projeto foi construído como uma aplicação estática utilizando HTML, CSS e 
 
 - Login exclusivo do administrador.
 - Consulta dos cadastros feitos na plataforma.
-- Visualização de nome, e-mail, telefone, documento e data do cadastro.
+- Visualização de nome, e-mail, perfil de acesso, telefone e faixa do cadastro.
 
 ## Fluxo de utilização
 
@@ -99,6 +102,16 @@ As credenciais administrativas são destinadas somente à demonstração do proj
 | localStorage | Persistência local dos dados de demonstração |
 | GitHub Pages | Hospedagem gratuita da aplicação |
 | Mermaid e SVG | Diagramas da metodologia do projeto |
+
+O GitHub identifica as linguagens da área **Languages** pelos arquivos versionados no repositório. Para que HTML, CSS e JavaScript apareçam nessa área, os arquivos `index.html`, `css/styles.css` e `javascript/app.js` precisam estar incluídos no commit enviado ao GitHub. O conteúdo deste README ou os badges acima não altera automaticamente essa identificação.
+
+## Languages
+
+- HTML
+- CSS
+- JavaScript
+
+Esta lista registra as linguagens desenvolvidas no projeto. A porcentagem exibida pelo GitHub é calculada automaticamente pelo GitHub Linguist e pode mudar conforme o tamanho dos arquivos.
 
 ## Estrutura do repositório
 
